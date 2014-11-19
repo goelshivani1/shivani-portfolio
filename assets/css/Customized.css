@@ -1,0 +1,333 @@
+
+i, cite, em, var, address, dfn {
+font-style: normal;
+}
+div {
+display: block;
+}
+
+
+
+.navbar {
+background: #009bd5;
+}
+
+.navbar-inner {
+position: relative;
+height: 100%;
+}
+.navbar {
+position: fixed;
+background: #ffffff;
+top: 0;
+left: 0;
+right: 0;
+height: 41px;
+font: 700 10px/41px "Open Sans";
+text-transform: uppercase;
+color: #fff;
+text-align: left;
+overflow: hidden;
+opacity: 1;
+z-index: 999;
+-webkit-transform: translate3d(0,0,0);
+-moz-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);
+-webkit-transition: -webkit-transform .3s,height .2s linear;
+-moz-transition: -moz-transform .3s,height .2s linear;
+-o-transition: transform .3s,height .2s linear;
+transition: transform .3s,height .2s linear;
+}
+.navbar-over {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #172835;
+opacity: 0;
+z-index: 0;
+visibility: hidden;
+}
+.container {
+width: 1021px;
+}
+.container, .wide {
+clear: both;
+position: relative;
+margin: 0 auto;
+max-width: 100%;
+}
+#wrap {
+position: relative;
+width: 100%;
+min-width: 1021px;
+overflow: hidden;
+z-index: 2;
+visibility: hidden;
+}
+
+.navbar .navbar-toggle {
+display: none;
+position: relative;
+float: right;
+margin: 9px 10px;
+padding: 6px 10px;
+font-weight: 700;
+border-radius: 4px;
+line-height: 11px;
+background: #fff;
+color: #b8c4ce;
+-webkit-transition: color .2s;
+-moz-transition: color .2s;
+-o-transition: color .2s;
+transition: color .2s;
+}
+.section .section-title {
+font-family: "Open Sans";
+margin: 0;
+text-transform: capitalize;
+color: none;
+font-size: 36px;
+text-align: center;
+}
+.section.section-alzheimer {
+background-color: #2c3e50;
+color: #ffffff;
+}
+.section.section-disability {
+background-color: #f4ece9;
+color: #2c3e50;
+}
+.section.section-ChandniChowk {
+background-color: #ffb700;
+color: #2c3e50;
+}
+.section.section-water {
+background-color: #536daa;
+color: #ffffff;
+}
+.section-hero {
+text-align: center;
+/*background: url(../../images/hero.png) center;
+background-size: cover;*/
+background-image: none;
+height: 600px;
+
+}
+.input-label
+{
+  font-size: 20px;
+  font-family: 'Open Sans';
+  color:#ffffff;
+  margin-top: 500px;
+  text-align: center;
+
+}
+label 
+{
+font-weight: 400;
+display: inline;
+}
+.brief-label
+{
+  font-size: 18px;
+  font-family: 'Open Sans';
+  color:#ffffff;
+  margin-top: 50px;
+  font-weight: 50;
+  display: inline;
+  text-align: left;
+
+}
+.role-label
+{
+  font-size: 18px;
+  font-family: 'Open Sans';
+  color:#ffffff;
+  margin-top: 50px;
+  font-weight: 50;
+  display: inline;
+  text-align: left;
+
+}
+#img-alz-home {
+top: 125px;
+position: absolute;
+left: -125px;
+}
+
+#img-Chandni-home {
+top: -15px;
+position: absolute;
+left: -120px;
+}
+
+#img-indiamap-home {
+top: -57px;
+position: absolute;
+left: -20px;
+}
+
+#img-indiamap-home-mainpage {
+top: -35px;
+position: absolute;
+left: -110px;
+}
+
+#img-save-water {
+top: -97px;
+position: absolute;
+right: -122px;
+} 
+
+h1, .h1 {
+line-height: 48px;
+}
+#myCarousel {
+  margin-top: none;
+}
+
+.carousel-linked-nav,
+.item img {
+  display: block; 
+  margin: 0 auto;
+}
+
+.carousel-linked-nav {
+  width: 350px;
+  margin-bottom: 20px;   
+}
+ul, ol {
+margin-top: 0;
+margin-bottom: 13px;
+margin-left: 200px;
+}
+#needs-objectives
+{
+vertical-align: middle;
+margin-left: 55px;
+margin-top: 35px;
+}
+ 
+ h4, .h4, h5, .h5, h6, .h6 {
+margin-top: 13px;
+margin-bottom: 13px;
+margin-left: 35px;
+}
+.section-hero .section-header {
+margin-bottom: 55px;
+margin-top: 35px;
+}
+#project-role-header
+{
+	margin-top: 15px;
+}
+.sec-title {
+padding: 70px 0;
+}
+h3 {
+font-family: "Open Sans";
+}
+body
+{
+font-family:"Open Sans";
+font-size:16px;
+line-height:1.625;
+color:#555;
+background-color:#fff
+}
+section.section.section-iphone-features.sec-title.loaded {
+background-color: #f4f4f4;
+}
+.pagination>li>a, .pagination>li>span {
+position: relative;
+float: left;
+padding: 6.5px 13px;
+line-height: 1.625;
+text-decoration: none;
+color: #e74c3c;
+background-color: #fff;
+border: 1px solid #ddd;
+margin-left: -1px;
+margin-top: 20px;
+margin-bottom: 100px;
+}
+.pager .next>a, .pager .next>span {
+float: none;
+}
+
+.pager li>a, .pager li>span {
+display: inline-block;
+padding: 5px 14px;
+background-color: rgba(255, 255, 255, 0);
+border: 1px solid #ffffff;
+border-radius: 15px;
+}
+.section-ChandniChowk .btn
+{
+  border: 1px solid #ffffff;
+  color:#ffffff;
+}
+.section-alzheimer .btn
+{
+  border: 1px solid #ffffff;
+  color:#ffffff;
+}
+.section-disability .btn
+{
+  border: 1px solid #ffffff;
+  color:#2c3e50;
+  background-color: #ffffff;
+}
+.section-water .btn
+{
+  border: 1px solid #ffffff;
+  color:#ffffff;
+}
+
+.btn-landing {
+width: 250px;
+text-transform: capitalize;
+font-size: 16px;
+}
+btn:hover,.btn:focus
+{ color:#2c3e50;
+ text-decoration:none
+}
+btn-default {
+background-color: #2c3e50;
+color: #fff;
+background-color: none;
+border-color: #34495e;
+}
+
+.section-ChandniChowk .section-header .section-title  {
+font-family: "Blenda Script";
+margin: 0;
+text-transform: capitalize;
+color: none;
+font-size: 36px;
+text-align: center;
+}
+
+
+.section.section-disability.section-hero .section-header .section-title
+{
+  font-family: "Open Sans";
+  text-align: center;
+
+  margin-top: -13px;
+  color: #d66554;
+
+}
+
+
+.section-hero .section-header .section-title
+
+{
+margin-bottom: 10px;
+
+}
+
+
