@@ -5,11 +5,14 @@ font-style: normal;
 div {
 display: block;
 }
-
+.container img{
+  width: 90%;
+}
 
 
 .navbar {
 background: #009bd5;
+box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-inner {
@@ -92,8 +95,9 @@ font-size: 36px;
 text-align: center;
 }
 .section.section-alzheimer {
-background-color: #2c3e50;
 color: #ffffff;
+padding: 0;
+height: 100%;
 }
 .section.section-disability {
 background-color: #f4ece9;
@@ -135,7 +139,7 @@ display: inline;
   font-family: 'Open Sans';
   color:#ffffff;
   margin-top: 50px;
-  font-weight: 50;
+  font-weight: 100;
   display: inline;
   text-align: left;
 
@@ -206,7 +210,6 @@ margin-left: 200px;
 #needs-objectives
 {
 vertical-align: middle;
-margin-left: 55px;
 margin-top: 35px;
 }
  
@@ -238,8 +241,14 @@ color:#555;
 background-color:#fff
 }
 section.section.section-iphone-features.sec-title.loaded {
-background-color: #f4f4f4;
+background-color: #FFFFFF;
 }
+.section.section-inverse {
+background-color: #F4F4F4;
+color: #555;
+}
+/* add other section classes here*/
+
 .pagination>li>a, .pagination>li>span {
 position: relative;
 float: left;
@@ -330,4 +339,87 @@ margin-bottom: 10px;
 
 }
 
+.intro-effect-fadeout {
+width: 100%;
+padding-left: 0;
+padding-right: 0;
+}
+#carousel-brainstorming .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+height: 500px;
+}
+#carousel-brainstorming .carousel-inner>.item {
+background-color: #f4f4f4;
+}
+#section-brainstorming{
+padding-top: 0;
+padding-bottom: 0;
+}
 
+@media (max-width: 768px){
+  h1, h2 {
+  line-height: 44px;
+  }  
+} 
+      .carousel-wrapper {
+        background-color: #f4f4f4;
+        width: 100%;
+        height: 550px;
+        overflow: hidden;
+        left: 0;
+        position: relative;
+      }
+      .carousel-container img {
+        display: block;
+        float: left;
+      }
+      .carousel-prev, .carousel-next {
+        background-color: #fff;
+        opacity: 0.2;
+        display: block;
+        position: absolute;
+        top: 0px;
+        height: 550px;
+        width:70px;
+      }
+      .carousel-prev:hover, .carousel-next:hover {
+        background-color: #fff;
+        opacity: 0.8;
+      }
+      .carousel-prev {
+        left: 0px;
+      }
+      .carousel-prev i{
+        left: 20px;
+        top: 250px;
+        position: absolute;
+      }
+      .carousel-next {
+        right: 0px;
+      }
+      .carousel-next i{
+        right: 20px;
+        top: 250px;
+        position: absolute;
+      }
+      .carousel-pager {
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+      }
+      .carousel-pager a {
+        border: 2px solid #fff;
+        border-radius: 10px;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin: 0 5px 0 0;
+      }
+      .carousel-pager a:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+      .carousel-pager a span {
+        display: none;
+      }
+      .carousel-pager a.selected {
+        background-color: #fff;
+      }
