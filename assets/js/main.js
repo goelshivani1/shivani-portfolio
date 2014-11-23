@@ -179,7 +179,7 @@ $(function() {
     isAnimating,
     container = document.getElementById( 'alz-container' ),
     trigger = container.querySelector( 'button.trigger' ),
-    process = document.getElementById( 'alz-process' );
+    process = document.getElementById( 'process' );
 
   function scrollY() {
     return window.pageYOffset || docElem.scrollTop;

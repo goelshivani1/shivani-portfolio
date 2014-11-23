@@ -42,10 +42,9 @@
           <header class="header">
             <div class="bg-img"><img src="../assets/img/alzheimers/care1.jpg" alt="Background Image"/></div>
             <div class="title">
-              <h1>Assistive Technology Device for patients with Alzheimer's Syndrome</h1>
-              <p class="subline">To create an Assistive Technology device for a patient with <i>Alzheimer's Syndrome</i>. The solution should also ease out the pressure
-                  of the caretaker</p>
-              <p>by <strong>Shivani Goel</strong> and <strong>Nikhil Chandrashekhar</strong> &#8212; Design Project at <strong>National Institute of Design</strong> from <strong>July-September, 2014</strong></p>
+              <h1>Chandni Chowk - A Creation Of Mughals</h1>
+              <p class="subline">To conduct Ethnographic Research for the historical city of Chandni Chowk and to visually narrate the story of the people and culture of the place. </p>
+              <p>by <strong>Shivani Goel</strong>, <strong>Deepika Sahai</strong> and <strong>Kavita Panwar</strong> &#8212; Design Project at <strong>National Institute of Design</strong> from <strong>Feb-March, 2013</strong></p>
             </div>
           </header>
           <button class="trigger" data-info="The design process"><span><img src="../assets/img/down-arrow.png"/></span></button>
@@ -53,9 +52,11 @@
       </section>
 
       <section class="section">
-        <div id="process" class="container">
+        <div id="alz-process" class="container">
           <header class="section-header">
-            <h2 class="section-title">The place Chandni Chowk</h2>
+            <h2 class="section-title">Understanding Alzheimer's Syndrome</h2>
+            <div class="section-description">The Research phase included both Primary and Secondary
+              research.</div>
           </header>
           <div class="row">
             <div class="col-lg-9">
