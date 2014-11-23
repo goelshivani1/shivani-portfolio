@@ -91,7 +91,7 @@ $(function() {
   $('#carousel-brainstorming').carouFredSel({
     width: '100%',
     items: {
-      visible: 2,
+      visible: 1,
       start: 1
     },
     scroll: {
