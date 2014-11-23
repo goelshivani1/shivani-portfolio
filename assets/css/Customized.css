@@ -344,6 +344,9 @@ width: 100%;
 padding-left: 0;
 padding-right: 0;
 }
+.carousel-inner img{
+  width:100%;
+}
 #carousel-brainstorming .carousel-inner>.item>img, .carousel-inner>.item>a>img {
 height: 500px;
 }
@@ -423,3 +426,85 @@ padding-bottom: 0;
       .carousel-pager a.selected {
         background-color: #fff;
       }
+
+a.feature {
+  text-decoration: none;
+  color: #DD6C4F;
+}
+.glass-features a.feature {
+  display: block;
+  background-color: #f7f7f7;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#e7e7e7));
+  background-image: -webkit-linear-gradient(top, #f7f7f7, #e7e7e7); 
+  background-image: -moz-linear-gradient(top, #f7f7f7, #e7e7e7); 
+  background-image: -ms-linear-gradient(top, #f7f7f7, #e7e7e7); 
+  background-image: -o-linear-gradient(top, #f7f7f7, #e7e7e7); 
+  color: #a7a7a7;
+  margin: 36px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50%;
+  box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+  font-size: 25px;
+  opacity: 0.7;
+  -webkit-animation: pulse 0.6s infinite alternate;
+}
+
+
+.glass-features a.feature:hover {
+  text-decoration: none;
+  color: #555;
+  background: #f5f5f5;
+}
+#feature1{
+  top: 6%;
+  left: 37%;
+}
+#feature2{
+  top: 1%;
+  left: 26%; 
+}
+#feature3{
+  top: 16%;
+  left: 16%;
+}
+#feature4{
+  top: 4%;
+  left: 7%; 
+}
+#feature5{
+  top: 31%;
+  left: 19%; 
+}
+#feature6{
+  top: 60%;
+  left: 46%;
+}
+#feature7{
+  top: 19%;
+  left: 81%;  
+}
+#feature8{
+  top: 46%;
+  left: 81%;  
+}
+@-webkit-keyframes pulse_animation {
+  0% { -webkit-transform: scale(1); }
+  30% { -webkit-transform: scale(1); }
+  40% { -webkit-transform: scale(1.08); }
+  50% { -webkit-transform: scale(1); }
+  60% { -webkit-transform: scale(1); }
+  70% { -webkit-transform: scale(1.05); }
+  80% { -webkit-transform: scale(1); }
+  100% { -webkit-transform: scale(1); }
+}
+.pulse {
+  -webkit-animation-name: 'pulse_animation';
+  -webkit-animation-duration: 5000ms;
+  -webkit-transform-origin:70% 70%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
