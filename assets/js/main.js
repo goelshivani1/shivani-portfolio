@@ -85,6 +85,10 @@
     $('.section-iphone-features .feature-block').removeClass('active');
     $(".section-iphone-features").find("[data-slide-to='" + currentIndex + "']").addClass('active');
   });
+
+  $(".pulse").on("mouseenter",function(){
+    $(this).removeClass("pulse");
+  })
 })(jQuery);
 
 $(function() {
@@ -103,6 +107,27 @@ $(function() {
     next: '#next-brainstorming',
     pagination: {
       container: '#pager-brainstorming',
+      deviation: 1
+    }
+  });
+});
+
+$(function() {
+  $('#carousel-wireframes').carouFredSel({
+    width: '100%',
+    items: {
+      visible: 5,
+      start: 1
+    },
+    scroll: {
+      items: 1,
+      duration: 1000,
+      timeoutDuration: 3000
+    },
+    prev: '#prev-wireframes',
+    next: '#next-wireframes',
+    pagination: {
+      container: '#pager-wireframes',
       deviation: 1
     }
   });
